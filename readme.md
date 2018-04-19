@@ -4,10 +4,10 @@ A javascript event calendar that implements over algorithms to detect both colli
 
 ### Getting Started
 
-Download and run the index.html file to open.
+Download and run the index.html file to open. Read thd code comments to understand the implemented algorithm.
 
 ### DEMO:
 
 Find the demo of the project below:
 
-![alt text](https://raw.githubusercontent.com/rajeshbabu1991/Javascript-Event-Calender/blob/master/demo_img.png)
+![alt text](https://github.com/rajeshbabu1991/Javascript-Event-Calender/blob/master/demo_img.png)
