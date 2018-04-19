@@ -1,0 +1,99 @@
+body, div, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(204, 188, 188);
+}
+
+.container {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.timings {
+  /* To make the timings appear a bit stretched outside calender */
+  height: 738px;
+  width: 100px;
+  font-size: 0.5em;
+  padding-right: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.timings div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.timings span {
+  font-size: 200%;
+  color: #645e5e;
+  margin-right: 8px;
+}
+
+.days {
+  height: 720px;
+  width: 620px;
+  position: relative;
+  background-color: #F0F0F0;
+}
+
+.common-frame {
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+.event {
+  font-size: 0.5em;
+  position: absolute;
+  padding: 5px 0px 0px 10px;
+  border-left: 5px solid #54c288;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.event .location, .event .title {
+  width: 100%;
+  font-size: 1em;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.event .title {
+  color: #54c288;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.randomizeButton {
+  background-color: #54c288;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  color: white;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.randomizeButton:active {
+  background-color: #3c8c62;
+}
+
+.randomizeButton:focus {
+  outline: none;
+}
+
+.randomizeText{
+  color: gray;
+  margin-left: 25px;
+  font-size: 12px;
+  width: 150px;
+}
